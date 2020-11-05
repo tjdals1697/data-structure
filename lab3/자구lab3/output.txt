@@ -1,0 +1,8 @@
+1. (A * B) + ( C * D)		Valid
+2. (A * ( B + ( C * D + E)))		Valid
+3. ( A + B ) - { C + D } - [F + G]		Valid
+5. ) A + B ( - C		Invalid(Unbalanced parentheses)
+6. (A + B)) - (C + D		Invalid(Unbalanced parentheses)
+7. { [ A + B ] - [ ( C -D ) ]		Invalid(Unbalanced parentheses)
+8. (A + B } )		Invalid(Mismatched parentheses)
+9. { [ A + B ) - [ ( C -D ) ] }		Invalid(Mismatched parentheses)
